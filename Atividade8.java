@@ -13,12 +13,12 @@ public class Exercicio8 {
         for (int i = 0; i < palavras.length; i++) {
             System.out.println((i + 1) + ". " + palavras[i]);
         }
-        System.out.println("total de palavras: " + palavras.length);
+        System.out.println("total : " + palavras.length);
         System.out.println("maior palavra: " + maiorPalavra(palavras));
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("digite uma frase:");
+        System.out.println("digite :");
         String frase = sc.nextLine().trim();
         String palavras[] = frase.split("\\s+");
         exibirPalavras(palavras);
