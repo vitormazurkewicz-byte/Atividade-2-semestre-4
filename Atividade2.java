@@ -5,9 +5,9 @@ public class Exercicio2 {
     }
     public static String classificarImc(double imc) {
         if (imc < 18.5) {
-            return "abaixo do peso";
+            return "abaixo";
         } else if (imc < 25) {
-            return "peso normal";
+            return "normal";
         } else if (imc < 30) {
             return "sobrepeso";
         } else {
