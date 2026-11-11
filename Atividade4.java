@@ -29,16 +29,16 @@ public class Exercicio4 {
         Scanner sc = new Scanner(System.in);
         int numeros[] = new int[6];
         for (int i = 0; i < numeros.length; i++) {
-            System.out.println("digite um numero:");
+            System.out.println("digite :");
             numeros[i] = sc.nextInt();
         }
-        System.out.println("array antes de ordenar:");
+        System.out.println("Escreva:");
         exibir(numeros);
-        System.out.println("esta ordenado? " + estaOrdenado(numeros));
+        System.out.println("ordenado" + estaOrdenado(numeros));
         ordenar(numeros);
-        System.out.println("array depois de ordenar:");
+        System.out.println(" ordenar:");
         exibir(numeros);
-        System.out.println("esta ordenado? " + estaOrdenado(numeros));
+        System.out.println("esta ordenado:" + estaOrdenado(numeros));
         sc.close();
     }
 }
