@@ -26,13 +26,13 @@ public class Exercicio3 {
                 System.out.println(v[i]);
             }
         }
-        System.out.println("total de primos: " + contarPrimos(v));
+        System.out.println("primos: " + contarPrimos(v));
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numeros[] = new int[8];
         for (int i = 0; i < numeros.length; i++) {
-            System.out.println("digite um numero inteiro:");
+            System.out.println("numero inteiro:");
             numeros[i] = sc.nextInt();
         }
         exibirPrimos(numeros);
