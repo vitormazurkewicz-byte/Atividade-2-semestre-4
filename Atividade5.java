@@ -21,7 +21,7 @@ public class Exercicio5 {
         Scanner sc = new Scanner(System.in);
         int numeros[] = new int[5];
         for (int i = 0; i < numeros.length; i++) {
-            System.out.println("digite um numero inteiro nao negativo:");
+            System.out.println("digite um numero :");
             numeros[i] = sc.nextInt();
         }
         exibirTabela(numeros);
