@@ -17,7 +17,7 @@ public class Exercicio1 {
         Scanner sc = new Scanner(System.in);
         int alturas[] = new int[3];
         for (int i = 0; i < alturas.length; i++) {
-            System.out.println("digite a altura do triangulo:");
+            System.out.println("altura:");
             alturas[i] = sc.nextInt();
         }
         for (int i = 0; i < alturas.length; i++) {
