@@ -18,7 +18,7 @@ public class Exercicio2 {
         for (int i = 0; i < pesos.length; i++) {
             double imc = calcularImc(pesos[i], alturas[i]);
             String classificacao = classificarImc(imc);
-            System.out.printf("pessoa %d: imc %.2f - %s%n", (i + 1), imc, classificacao);
+            System.out.printf("pessoa :", (i + 1), imc, classificacao);
         }
     }
     public static void main(String[] args) {
@@ -26,9 +26,9 @@ public class Exercicio2 {
         double pesos[] = new double[4];
         double alturas[] = new double[4];
         for (int i = 0; i < pesos.length; i++) {
-            System.out.println("digite o peso:");
+            System.out.println("digite :");
             pesos[i] = sc.nextDouble();
-            System.out.println("digite a altura:");
+            System.out.println("digite :");
             alturas[i] = sc.nextDouble();
         }
         exibirRelatorio(pesos, alturas);
