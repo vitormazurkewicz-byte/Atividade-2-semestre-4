@@ -17,7 +17,7 @@ public class Exercicio9 {
         System.out.println("digite o expoente:");
         int expoente = sc.nextInt();
         for (int i = 0; i < bases.length; i++) {
-            System.out.println("digite uma base:");
+            System.out.println("digite :");
             bases[i] = sc.nextInt();
         }
         exibirPotencias(bases, expoente);
