@@ -22,13 +22,13 @@ public class Exercicio6 {
                 posicao = i;
             }
         }
-        System.out.println("frase com mais vogais: " + frases[posicao]);
+        System.out.println(" vogais: " + frases[posicao]);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String frases[] = new String[3];
         for (int i = 0; i < frases.length; i++) {
-            System.out.println("digite uma frase:");
+            System.out.println("digite :");
             frases[i] = sc.nextLine();
         }
         exibirContagem(frases);
